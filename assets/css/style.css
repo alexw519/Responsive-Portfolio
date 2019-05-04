@@ -216,13 +216,16 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (width: 980px)
+{
+  .container
+  {
+    max-width: 850px;
+    width: 100%;
+  }
+}
 @media screen and (width: 768px)
 {
-  body
-  {
-    color: purple;
-  }
-
   .container
   {
     max-width: 600px;
@@ -240,6 +243,15 @@ input[type=submit] {
   .container
   {
     max-width: 500px;
+    width: 100%;
+  }
+  nav
+  {
+    clear: both;
+    width: 100%;
+  }
+  #logo
+  {
     width: 100%;
   }
 }
