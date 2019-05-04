@@ -220,15 +220,19 @@ input[type=submit] {
 {
   .container
   {
-    max-width: 850px;
+    max-width: 940px;
     width: 100%;
+  }
+  .main-section
+  {
+    width: 660px;
   }
 }
 @media screen and (width: 768px)
 {
   .container
   {
-    max-width: 600px;
+    max-width: 720px;
     width: 100%;
   }
 }
@@ -240,15 +244,36 @@ input[type=submit] {
     color: red;
   }
 
-  .container
+  #masthead
   {
-    max-width: 500px;
+    position: relative;
+  }
+  #main-container
+  /* .container */
+  {
+    position: relative;
+    top: -140px;
+    left: 90px;
+    max-width: 540px;
     width: 100%;
   }
+
+  .main-section
+  {
+    width: 360px;
+  }
+  /* .clearfix
+  {
+    content: "";
+    clear: both;
+    display: table;
+  } */
   nav
   {
     clear: both;
-    width: 100%;
+    /* width: 100%; */
+    width: 460px;
+    margin: 10px;
   }
   #logo
   {
